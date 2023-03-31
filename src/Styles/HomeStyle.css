@@ -1,0 +1,49 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerContainer{
+    width: auto;
+    margin-left: 45px;
+}
+
+.home .headerContainer h1{
+    color: #29edfa;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home .headerContainer p{
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: darkgoldenrod;
+}
+.home .headerContainer button{
+    background-color: #FF5722;
+    margin-top: 16px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    height: 40px;
+    width: 116px;
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 15px;
+
+}
+.headerContainer button:hover{
+    background-color: rgb(31, 219, 131);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
